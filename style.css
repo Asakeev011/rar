@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(rgb(222, 10, 222), rgb(205, 172, 5));
+    background-repeat: no-repeat;
+    height: 950px;
+    margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  background: linear-gradient(135deg, #f2994a, #a044ff);
+  font-family: Arial, sans-serif;
+
+    
+}
+.block{
+    border: 3px solid;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 15px;
+  font-size: 14px;
+  
+  box-sizing:border-box;
+  
+
+    
+}
+.conteiner{
+display: flex;
+    align-content: space-between;
+    /* margin-top: 300px;
+    margin-left: 650px;
+    margin-right: 900px; */
+    gap: 30px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding:20px;
+
+}
+
+
+.card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+css
+.card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rainn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-size: 4rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px; /* фиксированная высота блока */
+  padding: 20px;
+ 
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+button {
+  margin-top: auto;
+  align-self: center;
+}
+button{
+  font-size: 1rem;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
